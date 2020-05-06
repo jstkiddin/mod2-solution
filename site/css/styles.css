@@ -7,14 +7,13 @@ h1{
 
 .row{
     width: 100%;
-    border: 2px solid  green;
 }
 
 div.mainbox{
     
     background-color: grey;
     width: 98%; 
-    height: 150px; 
+    height: 200px; 
     margin-top:10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -39,8 +38,9 @@ p.namebox{
 p.text{
     clear:right;
     margin: 10px;
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 #chicbox{
@@ -78,7 +78,7 @@ p.text{
 }
 
 
-@media(min-width: 950px) and (max-width: 1199px){
+@media(min-width:721px) and (max-width: 1199px){
     .col-md-1, .col-md-2, .col-md-3
     {
         float: left;
@@ -97,7 +97,7 @@ p.text{
     }
 }
 
-@media(min-width: 400px) and (max-width: 949px){
+@media(min-width: 400px) and (max-width: 720px){
     .col-sm-1, .col-sm-2, .col-sm-3
     {
         float: left;
