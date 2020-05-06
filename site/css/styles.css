@@ -107,6 +107,7 @@ p.text{
     {
         float: left;
         overflow: hidden;
+        height: 100%;
     }
     .col-sm-1{
         width: 33.33%;
