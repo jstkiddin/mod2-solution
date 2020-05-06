@@ -57,7 +57,7 @@ p.text{
 }
 
 /*Large device*/
-@media(min-width: 1200px){
+@media only screen and (min-width: 1200px){
     .col-lg-1, .col-lg-2, .col-lg-3
     {
         float: left;
@@ -78,7 +78,7 @@ p.text{
 }
 
 
-@media(min-width:721px) and (max-width: 1199px){
+@media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape){
     .col-md-1, .col-md-2, .col-md-3
     {
         float: left;
@@ -97,7 +97,7 @@ p.text{
     }
 }
 
-@media(min-width: 400px) and (max-width: 720px){
+@media (min-width: 481px) and (max-width: 767px){
     .col-sm-1, .col-sm-2, .col-sm-3
     {
         float: left;
@@ -112,6 +112,6 @@ p.text{
     }
 
     .col-sm-3{
-        width: 100%;
+        width: 80%;
     }
 }
