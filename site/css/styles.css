@@ -14,7 +14,7 @@ div.mainbox{
     
     background-color: grey;
     width: 98%; 
-    height: 200px; 
+    height: 160px; 
     margin-top:10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -38,10 +38,9 @@ p.namebox{
 
 p.text{
     clear:right;
-    margin: 10px;
-    font-size: 16px;
-    overflow: hidden;
-    margin-top: 40px;
+    font-size: 14px;
+    margin: 40px 15px 40px 15px;
+
 }
 
 #chicbox{
@@ -58,14 +57,14 @@ p.text{
 }
 
 /*Large device*/
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 992px){
     .col-lg-1, .col-lg-2, .col-lg-3
     {
         float: left;
         overflow: hidden;
     }
     .col-lg-1{
-        width: 33.33%;
+        width: 33.3%;
     }
 
     .col-lg-2{
@@ -79,22 +78,22 @@ p.text{
 }
 
 
-@media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
     .col-md-1, .col-md-2, .col-md-3
     {
         float: left;
         overflow: hidden;
     }
     .col-md-1{
-        width: 33.33%;
+        width: 30%;
     }
 
     .col-md-2{
-        width: 49.5%;
+        width: 49%;
     }
 
     .col-md-3{
-        width: 100%;
+        width: 99%;
     }
 }
 
@@ -113,6 +112,6 @@ p.text{
     }
 
     .col-sm-3{
-        width: 80%;
+        width: 99%;
     }
 }
